@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "proy_rrhh_mas",
+      "cwd": "${workspaceFolder}",
+      "runtimeArgs": [
+        "run-script",
+        "start"
+      ],
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npm",
+      "windows": {
+        "runtimeExecutable": "npm.cmd"
+      },
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "env": {
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/proy_rrhh_mas\"}"
+      }
+    }
+  ]
+}
